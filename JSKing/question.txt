@@ -1,0 +1,60 @@
+📋 Detailed List of 20 If–Else Questions
+1. Voting Eligibility
+Check if a person’s age is 18 or above → print “Eligible to vote” else “Not eligible”.
+
+2. Metro Student Discount
+Check if isStudent is true → print “Student discount applied” else “Regular fare”.
+
+3. Temperature Comfort
+If temperature > 30 → print “Hot” else “Cool”.
+
+4. Exam Pass/Fail
+If marks ≥ 35 → print “Pass” else “Fail”.
+
+5. Internet Pack Validity
+If daysLeft > 0 → print “Pack active” else “Recharge needed”.
+
+6. Phone Battery Warning
+If battery ≤ 20 → print “Low battery” else “Battery OK”.
+
+7. Traffic Fine (Speed Limit)
+If speed > limit → print “Over-speeding fine” else “Safe driving”.
+
+8. Train Reservation Concession
+If age ≥ 60 → print “Senior citizen concession” else “Regular fare”.
+
+9. OTP Validation
+If userOTP === actualOTP → print “Login success” else “Invalid OTP”.
+
+10. Bus Ticket Fare
+If age < 12 → print “Child fare” else “Adult fare”.
+
+11. Festival Offer
+If purchase amount ≥ 1000 → print “Coupon applied” else “Add more for coupon”.
+
+12. Cricket Score Chase
+If teamScore ≥ target → print “Chase successful” else “Need more runs”.
+
+13. ATM Withdrawal
+If balance ≥ withdraw → print “Cash dispensed” else “Insufficient funds”.
+
+14. Cinema Age Restriction
+If age ≥ 18 → print “Allowed (A-rated)” else “Not allowed”.
+
+15. Rain Plan
+If isRaining === true → print “Carry umbrella” else “Wear sunglasses”.
+
+16. Mobile Data Usage
+If usedGB ≥ capGB → print “Data cap reached” else “High speed active”.
+
+17. Salary Tax Slab
+If salary > 500000 → print “Higher tax slab” else “Basic tax slab”.
+
+18. App Update Needed
+If currentVersion < latestVersion → print “Update available” else “Up to date”.
+
+19. Shop Open Hours
+If hour between openHour and closeHour → print “Shop open” else “Shop closed”.
+
+20. Discount Stackable
+If hasCoupon === true and amount ≥ 1000 → print “Coupon applied” else “Conditions not met”.
