@@ -58,3 +58,44 @@ If hour between openHour and closeHour → print “Shop open” else “Shop cl
 
 20. Discount Stackable
 If hasCoupon === true and amount ≥ 1000 → print “Coupon applied” else “Conditions not met”.
+
+
+................................................
+
+
+📋 Full Conditional Questions List (16 total)
+🟢 Else If Ladder (4 Questions)
+Student Grade System Hint: Use else if ladder with ranges (≥85, ≥75, ≥60).
+
+Temperature Band Hint: Compare ranges step by step (≥40, ≥30, ≥20).
+
+Exam Result Hint: Ladder with thresholds (≥75, ≥60, ≥33).
+
+Salary Tax Slab Hint: Use else if with salary ranges (>10L, >5L, else basic).
+
+🔵 Nested If Else (4 Questions – Easy)
+Login System Hint: Outer if = login check, inner if = role check.
+
+Cricket Match Result Hint: Outer if = win/loss, inner if = quality of win.
+
+ATM Withdrawal Hint: Outer if = PIN, inner if = balance.
+
+School Admission Hint: Outer if = age, inner if = documents.
+
+🟣 Switch Case (4 Questions)
+Weekday Name Hint: Switch on day number (1–7).
+
+Payment Method Hint: Switch on string value (“UPI”, “CARD”, “COD”).
+
+Traffic Signal Hint: Switch on signal color (“RED”, “YELLOW”, “GREEN”).
+
+Movie Ticket Type Hint: Switch on ticket string (“REGULAR”, “VIP”, “BALCONY”).
+
+🔴 Advanced Nested If Else (4 Questions – Complex Logic)
+Hospital Triage Hint: Outer if = critical check, inner if = moderate + age, else mild.
+
+University Admission Hint: Outer if = marks ≥90, else if = 75–89 with category, else sports quota.
+
+Online Order Delivery Hint: Outer if = address verified, inner if = payment success, inner‑inner if = stock.
+
+Apartment Entry Hint: Outer if = resident vs guest, inner if = ID/pass, inner‑inner if = host confirmation.
