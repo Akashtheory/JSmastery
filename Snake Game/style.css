@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html, body{
@@ -10,7 +10,27 @@ html, body{
     width: 100%;
 }
 
-#roy{
-    color: brown;
-    
+:root{
+    /* background color */
+   --bg-primary-color: rgb(24, 23, 23);
+
+   /* Text color */
+   --text-primary-color: rgb(243, 200, 200);
+}
+
+
+html{
+    background-color: var(--bg-primary-color);
+    color: var(--text-primary-color);
+}
+
+main, section{
+    width: 100%;
+    height: 100%;
+}
+
+section .infos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* 10 min yha ho gya video me  */
 }
