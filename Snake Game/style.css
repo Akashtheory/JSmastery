@@ -13,11 +13,11 @@ html, body{
 :root{
     /* background color */
    --bg-primary-color: rgb(24, 23, 23);
-   --bg-fill-color: white;
+   --bg-fill-color: rgb(238, 255, 7);
    --bg-food-color: red;
 
    /* Text color */
-   --text-primary-color: rgb(253, 224, 95);
+   --text-primary-color: rgb(252, 249, 70);
 
    /* Spacing variables */
    --space-xs: 4px;
@@ -29,7 +29,7 @@ html, body{
    --space-3xl: 48px;
 
    /* Border Color */
-   --border-primary-color: rgb(92, 78, 0);
+   --border-primary-color: rgba(255, 255, 255, 0.658);
 
    /* Border Radius */
    --border-radius-xs: 4px;
@@ -72,7 +72,7 @@ section{
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: rgb(35, 15, 54);
+  background-color: rgb(0, 0, 0);
   gap: var(--space-lg);
   /* border: 2px solid gold;
   border-radius: 7%; */
@@ -92,7 +92,7 @@ section .infos{
 }
 
 .board{
-    border: 1px solid var(--border-primary-color);
+    /* border: 1px solid var(--border-primary-color); */
     flex-grow: 1;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
@@ -105,6 +105,7 @@ section .infos{
     width: 30px; */
     border: 1px solid var(--border-primary-color);
     border-radius: 50%;
+    background-color: rgb(66, 65, 65);
 }
 
 .fill{
