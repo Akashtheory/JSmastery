@@ -252,3 +252,7 @@ function parseNote(note) {
   const octave = note.replace(letter, "");
   return [letter, octave];
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 751f0f7f2ea4e2ee43f12ed09ea168e72f749511
