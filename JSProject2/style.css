@@ -10,9 +10,32 @@ html, body{
     height: 100%;
     width: 100%;
 }
-
+body{
+    background-color: rgb(13, 6, 114);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #container{
     height: 400px;
     width: 300px;
-    background-color: red;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+body #backgroundimg{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 40%;
+    object-fit: cover;
+    border: 5px solid whitesmoke;
 }
