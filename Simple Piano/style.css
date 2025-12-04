@@ -1,0 +1,32 @@
+:root {
+  --white-key: #fff;
+  --black-border: #333;
+  --active-color: #f0c;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #eee;
+}
+
+#piano {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.key {
+  background: var(--white-key);
+  border: 2px solid var(--black-border);
+  padding: 40px 10px;
+  margin: 2px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.key:active,
+.key.active {
+  background: var(--active-color);
+  color: #fff;
+}
