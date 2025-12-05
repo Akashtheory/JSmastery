@@ -9,6 +9,8 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdrtEvWrKPpdZHmDas-n7-jGu9HJFMcD7mA&s');
+    object-fit: cover;
 }
 body{
     background-color: rgb(13, 6, 114);
@@ -46,4 +48,39 @@ body{
     opacity: 0;
     transition: all ease 0.4s;
     text-shadow: 5px 5px 10px rgba(255, 0, 157, 0.61);
+}
+
+
+
+#container1{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    left: 2%;
+}
+
+#container1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+
+
+#container1 #emoji{
+    color: rgb(25, 0, 255);
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: all ease 0.4s;
+    text-shadow: 5px 5px 10px rgba(132, 0, 255, 0.719);
 }
