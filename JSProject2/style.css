@@ -22,7 +22,8 @@ body{
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    position: absolute;
+    position: relative;
+    overflow: hidden;
 }
 
 #container img{
@@ -30,12 +31,19 @@ body{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    
 }
 
-body #backgroundimg{
-    height: 50%;
-    width: 100%;
-    margin-bottom: 40%;
-    object-fit: cover;
-    border: 5px solid whitesmoke;
+
+
+#container i{
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: all ease 0.4s;
+    text-shadow: 5px 5px 10px rgba(255, 0, 157, 0.61);
 }
