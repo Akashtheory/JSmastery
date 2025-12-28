@@ -1,43 +1,160 @@
+@font-face {
+  font-family: 'MyCustomFont'; 
+  src: url('font/Storm\ Gust.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Mainfont'; 
+  src: url('font/Blood\ Hunter\ TTF\ Demo.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Textfont'; 
+  src: url('font/Ghostbum\ \(DEMO\).ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 *{
   margin: 0;
   padding: 0;
- 
+  
   box-sizing: border-box;
 }
 
-html, body{
+
+
+html,body{
   height: 100%;
-  width: 100%;
+  width:100%;
 }
+
 
 #main{
   height: 100%;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1575365717666-1a84be3fd104?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(https://i.redd.it/58xc5bic96y61.png);
+  /* background-image: url(https://images2.alphacoders.com/628/628357.jpg); */
+}
+
+#nav{
+  padding: 10px 20px;
+  margin-left: 600px;
+}
+
+#main #nav a{
+  
+  color: rgb(233, 233, 233);
+  font-family: 'Mainfont';
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 25px;
+
+   background-image: url('https://cdna.artstation.com/p/assets/images/images/060/893/120/large/fredrick-nolting-re4-01-copy.jpg?1679537977');
   background-size: cover;
   background-position: center;
-  text-align: center;
-  padding: 40px;
-  
+
+  /* 2. Clip the background to the text shape */
+  -webkit-background-clip: text; /* Required for Chrome/Safari/Edge */
+  background-clip: text;
+
+  /* 3. Make the text color transparent so the image shows through */
+  color: transparent;
 }
 
 #main h1{
-  color: rgb(230, 255, 2);
-  font-size: 100px;
-  text-align: center;
-  text-transform: lowercase;
-  font-family: SDDystopianDemo;
+  font-family: 'Mainfont';
+  font-size: 250px;
+  font-weight: 100;
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/060/893/120/large/fredrick-nolting-re4-01-copy.jpg?1679537977');
+  background-size: cover;
+  background-position: center;
+
+  /* 2. Clip the background to the text shape */
+  -webkit-background-clip: text; /* Required for Chrome/Safari/Edge */
+  background-clip: text;
+
+  /* 3. Make the text color transparent so the image shows through */
+  color: transparent;
   
-  padding: 20px;
+
 }
 
-#main button{
+#mainheading{
+  position: absolute;
+  left: 8%;
+  top: 5%;
+}
+
+#btm-left{
+  width: 250px;
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
   
-  padding: 10px 20px;
-  background-color: bisque;
-  color: rgb(255, 255, 255);
-  background: linear-gradient(to top, purple, blue, pink, purple);
-  background-color: transparent;
+}
+
+#btm-left h4{
+  font-family: 'Textfont';
+  margin-top: 30px;
+  color: rgb(255, 79, 79);
+}
+#btm-left h3{
+  font-family: 'Textfont';
+  color: rgb(255, 53, 53);
+}
+
+#btm-left p{
+  font-size: 14px;
+  color: rgb(255, 196, 196);
+}
+
+#btm-bottom{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 30px 70px;
   
+  bottom: 0;
+  left: 0;
   
+}
+
+#btm-bottom h3{
+color: rgb(255, 172, 157);
+}
+
+#btm-bottom a{
+  color: rgb(255, 161, 161);
+  text-decoration: none;
+}
+
+#main>img{
+  position: absolute;
+  
+}
+
+#ada{
+  height: 690px;
+  top: 36%;
+  left: 20%;
+}
+
+#leon{
+  height: 690px;
+  top: 35%;
+  left: 35%;
+}
+
+#clair{
+  height: 690px;
+  top: 35%;
+  left:50%
 }
