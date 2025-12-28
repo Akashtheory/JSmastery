@@ -39,8 +39,8 @@ html,body{
 #main{
   height: 100%;
   width: 100%;
-  background-image: url(https://i.redd.it/58xc5bic96y61.png);
-  /* background-image: url(https://images2.alphacoders.com/628/628357.jpg); */
+  /* background-image: url(https://i.redd.it/58xc5bic96y61.png); */
+  background-image: url(https://images2.alphacoders.com/628/628357.jpg);
 }
 
 #nav{
@@ -60,11 +60,10 @@ html,body{
   background-size: cover;
   background-position: center;
 
-  /* 2. Clip the background to the text shape */
-  -webkit-background-clip: text; /* Required for Chrome/Safari/Edge */
+  
+  -webkit-background-clip: text; 
   background-clip: text;
 
-  /* 3. Make the text color transparent so the image shows through */
   color: transparent;
 }
 
@@ -76,11 +75,11 @@ html,body{
   background-size: cover;
   background-position: center;
 
-  /* 2. Clip the background to the text shape */
-  -webkit-background-clip: text; /* Required for Chrome/Safari/Edge */
+ 
+  -webkit-background-clip: text; 
   background-clip: text;
 
-  /* 3. Make the text color transparent so the image shows through */
+  
   color: transparent;
   
 
