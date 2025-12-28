@@ -36,6 +36,10 @@ body{
     overflow-y: hidden;
 }
 
+#storyian::-webkit-scrollbar{
+    display: none;
+}
+
 .story{
     height: 90px;
     width: 90px;
